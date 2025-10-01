@@ -1,1 +1,58 @@
-// Placeholder for algeria-states.ts
+/*
+ * File: src/lib/algeria-states.ts
+ */
+export type AlgerianState = {
+  name: string;
+  name_ar: string;
+};
+
+export const algerianStates: AlgerianState[] = [
+  { name: "Adrar", name_ar: "أدرار" },
+  { name: "Chlef", name_ar: "الشلف" },
+  { name: "Laghouat", name_ar: "الأغواط" },
+  { name: "Oum El Bouaghi", name_ar: "أم البواقي" },
+  { name: "Batna", name_ar: "باتنة" },
+  { name: "Béjaïa", name_ar: "بجاية" },
+  { name: "Biskra", name_ar: "بسكرة" },
+  { name: "Béchar", name_ar: "بشار" },
+  { name: "Blida", name_ar: "البليدة" },
+  { name: "Bouira", name_ar: "البويرة" },
+  { name: "Tamanrasset", name_ar: "تمنراست" },
+  { name: "Tébessa", name_ar: "تبسة" },
+  { name: "Tlemcen", name_ar: "تلمسان" },
+  { name: "Tiaret", name_ar: "تيارت" },
+  { name: "Tizi Ouzou", name_ar: "تيزي وزو" },
+  { name: "Algiers", name_ar: "الجزائر" },
+  { name: "Djelfa", name_ar: "الجلفة" },
+  { name: "Jijel", name_ar: "جيجل" },
+  { name: "Sétif", name_ar: "سطيف" },
+  { name: "Saïda", name_ar: "سعيدة" },
+  { name: "Skikda", name_ar: "سكيكدة" },
+  { name: "Sidi Bel Abbès", name_ar: "سيدي بلعباس" },
+  { name: "Annaba", name_ar: "عنابة" },
+  { name: "Guelma", name_ar: "قالمة" },
+  { name: "Constantine", name_ar: "قسنطينة" },
+  { name: "Médéa", name_ar: "المدية" },
+  { name: "Mostaganem", name_ar: "مستغانم" },
+  { name: "M'Sila", name_ar: "المسيلة" },
+  { name: "Mascara", name_ar: "معسكر" },
+  { name: "Ouargla", name_ar: "ورقلة" },
+  { name: "Oran", name_ar: "وهران" },
+  { name: "El Bayadh", name_ar: "البيض" },
+  { name: "Illizi", name_ar: "إليزي" },
+  { name: "Bordj Bou Arréridj", name_ar: "برج بوعريريج" },
+  { name: "Boumerdès", name_ar: "بومرداس" },
+  { name: "El Tarf", name_ar: "الطارف" },
+  { name: "Tindouf", name_ar: "تندوف" },
+  { name: "Tissemsilt", name_ar: "تيسمسيلت" },
+  { name: "El Oued", name_ar: "الوادي" },
+  { name: "Khenchela", name_ar: "خنشلة" },
+  { name: "Souk Ahras", name_ar: "سوق أهراس" },
+  { name: "Tipaza", name_ar: "تيبازة" },
+  { name: "Mila", name_ar: "ميلة" },
+  { name: "Aïn Defla", name_ar: "عين الدفلى" },
+  { name: "Naâma", name_ar: "النعامة" },
+  { name: "Aïn Témouchent", name_ar: "عين تموشنت" },
+  { name: "Ghardaïa", name_ar: "غرداية" },
+  { name: "Relizane", name_ar: "غليزان" },
+];// Placeholder for algeria-states.ts
