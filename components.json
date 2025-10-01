@@ -1,4 +1,4 @@
-///*
+/*
  * File: components.json
  */
 {
@@ -21,4 +21,4 @@
     "hooks": "@/hooks"
   },
   "iconLibrary": "lucide"
-} Placeholder for components.json
+}
