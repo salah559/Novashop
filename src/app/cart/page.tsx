@@ -99,4 +99,4 @@ const CartPage = () => {
   );
 };
 
-export default CartPage;// Placeholder for page.tsx
+export default CartPage;
