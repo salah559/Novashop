@@ -1,1 +1,115 @@
-// Placeholder for placeholder-images.json
+/*
+ * File: src/lib/placeholder-images.json
+ */
+{
+  "placeholderImages": [
+    {
+      "id": "hero-image",
+      "description": "Abstract blue and purple shapes",
+      "imageUrl": "https://images.unsplash.com/photo-1706558425563-1a5a1df3d1eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMGZhc2hpb258ZW58MHx8fHwxNzU5MzQwNzg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract fashion"
+    },
+    {
+      "id": "category-men",
+      "description": "Stylish man in a city",
+      "imageUrl": "https://images.unsplash.com/photo-1530777780045-c11965d8f4c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFsZSUyMG1vZGVsfGVufDB8fHx8MTc1OTIyOTU0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male model"
+    },
+    {
+      "id": "category-women",
+      "description": "Fashionable woman posing",
+      "imageUrl": "https://images.unsplash.com/photo-1526510747491-58f928ec870f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBtb2RlbHxlbnwwfHx8fDE3NTkyMjk1NDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female model"
+    },
+    {
+      "id": "category-kids",
+      "description": "Happy children playing",
+      "imageUrl": "https://images.unsplash.com/photo-1725147874938-7904e3362841?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGlsZHJlbiUyMGZhc2hpb258ZW58MHx8fHwxNzU5MzQ0NjIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "children fashion"
+    },
+    {
+      "id": "category-shoes",
+      "description": "A collection of modern shoes",
+      "imageUrl": "https://images.unsplash.com/photo-1662037129545-1f5267dbf5e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzbmVha2VycyUyMHNob2VzfGVufDB8fHx8MTc1OTI2NTg0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sneakers shoes"
+    },
+    {
+      "id": "category-accessories",
+      "description": "Various fashion accessories like watches and sunglasses",
+      "imageUrl": "https://images.unsplash.com/3/www.madebyvadim.com.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmYXNoaW9uJTIwYWNjZXNzb3JpZXN8ZW58MHx8fHwxNzU5MzEyMzU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fashion accessories"
+    },
+    {
+      "id": "men-1",
+      "description": "Man wearing a casual t-shirt",
+      "imageUrl": "https://images.unsplash.com/photo-1667744565777-fa2eb22adeeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjB0LXNoaXJ0fGVufDB8fHx8MTc1OTM0NDYyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man t-shirt"
+    },
+    {
+      "id": "men-2",
+      "description": "Man in a formal shirt",
+      "imageUrl": "https://images.unsplash.com/photo-1661802365632-bb2b2f68eb51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBzaGlydHxlbnwwfHx8fDE3NTkyOTE4OTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man shirt"
+    },
+    {
+      "id": "men-3",
+      "description": "Man wearing jeans",
+      "imageUrl": "https://images.unsplash.com/photo-1641311821670-d746f909dc78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBqZWFuc3xlbnwwfHx8fDE3NTkzNDQ2MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man jeans"
+    },
+    {
+      "id": "women-1",
+      "description": "Woman in a summer dress",
+      "imageUrl": "https://images.unsplash.com/photo-1511130558090-00af810c21b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGRyZXNzfGVufDB8fHx8MTc1OTI3Njc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman dress"
+    },
+    {
+      "id": "women-2",
+      "description": "Woman wearing a stylish blouse",
+      "imageUrl": "https://images.unsplash.com/photo-1716394589687-7eebb24532fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGJsb3VzZXxlbnwwfHx8fDE3NTkyNzAxOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman blouse"
+    },
+    {
+      "id": "women-3",
+      "description": "Woman in elegant pants",
+      "imageUrl": "https://images.unsplash.com/photo-1699205016688-246cc1ba65a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx3b21hbiUyMHBhbnRzfGVufDB8fHx8MTc1OTI3Njc4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman pants"
+    },
+    {
+      "id": "kids-1",
+      "description": "Child's colorful jacket",
+      "imageUrl": "https://images.unsplash.com/photo-1603923407694-2bfc36d6ce98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaGlsZCUyMGphY2tldHxlbnwwfHx8fDE3NTkyNzAxOTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child jacket"
+    },
+    {
+      "id": "kids-2",
+      "description": "Kid's cute overalls",
+      "imageUrl": "https://images.unsplash.com/photo-1758513227131-b725f34bef61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMG92ZXJhbGxzfGVufDB8fHx8MTc1OTM0NDYyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "child overalls"
+    },
+    {
+      "id": "shoes-1",
+      "description": "Running sneakers",
+      "imageUrl": "https://images.unsplash.com/photo-1742493566105-4fe63d19e290?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzbmVha2VycyUyMHJ1bm5pbmd8ZW58MHx8fHwxNzU5MjQ4NDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sneakers running"
+    },
+    {
+      "id": "shoes-2",
+      "description": "Formal leather shoes",
+      "imageUrl": "https://images.unsplash.com/photo-1673332655640-d97338b1c6b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVhdGhlciUyMHNob2VzfGVufDB8fHx8MTc1OTI0NDM1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "leather shoes"
+    },
+    {
+      "id": "accessories-1",
+      "description": "A modern wristwatch",
+      "imageUrl": "https://images.unsplash.com/photo-1708247804802-6851ddd47234?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx3cmlzdHdhdGNofGVufDB8fHx8MTc1OTMyODI0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wristwatch"
+    },
+    {
+      "id": "accessories-2",
+      "description": "Stylish sunglasses",
+      "imageUrl": "https://images.unsplash.com/photo-1718967807877-f2e04ffc7343?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdW5nbGFzc2VzJTIwZmFzaGlvbnxlbnwwfHx8fDE3NTkyMjQ3ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sunglasses fashion"
+    }
+  ]
+}// Placeholder for placeholder-images.json
