@@ -1,6 +1,3 @@
-// Placeholder for /*
- * File: tsconfig.json
- */
 {
   "compilerOptions": {
     "target": "ES2017",
