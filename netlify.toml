@@ -1,0 +1,12 @@
+# Settings for deploying a Next.js app on Netlify
+# https://docs.netlify.com/integrations/frameworks/next-js/
+
+[build]
+  # Command to build the Next.js app
+  command = "npm run build"
+  # Directory where the built app is located
+  publish = ".next"
+
+[functions]
+  # Configure the Node.js bundler for serverless functions
+  node_bundler = "esbuild"
