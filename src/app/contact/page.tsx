@@ -1,6 +1,3 @@
-// Placeholder /*
- * File: src/app/contact/page.tsx
- */
 "use client";
 
 import { useLanguage } from "@/hooks/useLanguage";
@@ -130,4 +127,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage; page.tsx
+export default ContactPage;
