@@ -1,6 +1,3 @@
-// Placeholder for /*
- * File: src/lib/translations.ts
- */
 export const translations = {
   en: {
     appName: "Novashop",
